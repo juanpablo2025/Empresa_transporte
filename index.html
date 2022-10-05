@@ -1,70 +1,177 @@
 <!DOCTYPE html>
+<!--
 
+
+-->
 <html lang="es">
 
 <head>
 
 	<meta charset=”UTF-8” />
-	<title>Vehiculos</title>
+	<title>TRANSPORTES S.A</title>
 
 </head>
 
 <body>
 	<header>
-		<h1>Consulta Vehiculos</h1>
-		<nav>
-			<!--<center>-->
-			<ul>
-				<li><a href="aereo.html">Vehiculo maritimo</a></li>
-				<li><a href="terrestre.html">Vehiculo terrestre</a></li>
-				<li><a href="fluvial.html">Vehiculo fluvial</a></li>
-				<li><a href="terrestre.html">Vehiculo terrestre</a></li>
+		<center>
+			<h1 style=" background-color:#6fff00; color:rgb(88, 87, 87)">TRANSPORTES S.A</h1>
+		</center>
+	</header>
+	<nav style=" background-color:#dfdd">
 
-			</ul>
-			<!--</center>-->
-		</nav>
-		<section>
-			<h1>
-				Vehiculos
-			</h1>
-			<p>El vehículo (del Latín: vehiculum) es un medio de locomoción que permite el traslado de un lugar a
-				otro de personas o cosas.
-				Cuando se traslada animales u objetos es llamado vehículo de transporte, como por ejemplo (en
-				orden de creación) el barco, el carro, el tren, la bicicleta, la motocicleta, el automóvil, el
-				camión, el avión y la nave, entre otros. <br /><br />
-			</p>
-			<h1>
-				Vehículos que se movilizan sobre riel
-			</h1>
-			<img src="img/300px-2402_'County_of_Hampshire'_at_Wool.jpg" alt="Tren de riel" width="500"
-				height="300">
-			<p>
-				<li>Ascensor o elevador</li>
-				<li>Furgón</li>
-				<li>Metro</li>
-				<li>Tranvía</li>
-				<li>Tren</li>
-				<li>Vagón</li>
-				<li>Locomotora</li>
+		<!--<center>-->
+		<ul>
 
-				<br /><br />
-			</p>
-			<h1>
-				Vehículos para suelo firme o pavimentado
-			</h1>
-			<p>
-				<li>Automóvil</li>
-				<li>Camión</li>
-				<li>Metro</li>
-				<li>Autobús</li>
-				<li>Carretilla elevadora</li>
-				<li>Carro</li>
-				<li>Motocicleta</li>
+			<table WIDTH="700">
+				<tr>
+					<td>
+						<a>¿Un viaje? ir:</a>
+					</td>
+					<td>
+						<li><a href="aereo.html">Viajes maritimos</a></li>
+					</td>
+					<td>
+						<li><a href="terrestre.html">Viajes terrestres</a></li>
+					</td>
+					<td>
+						<li><a href="fluvial.html">Viajes fluvialess</a></li>
+					</td>
+				</tr>
+			</table>
 
-				<br /><br />
-			</p>
-		</section>
-		<!--
+		</ul>
+		<!--</center>-->
+	</nav>
+	<section>
+		<center>
+			<h1>
+				¿Quienes Somos?
+			</h1>
+		</center>
+		<p>A lo largo de su historia, el Metro de Medellín se ha consolidado como uno de los íconos del Valle de
+			Aburrá y como un elemento integrador de los ciudadanos
+			. Esto se debe a que la Empresa de Transporte Masivo del Valle de Aburrá, empresa pública encargada de
+			su gestión, ha procurado que éste, más que un medio
+			de transporte que lleva a las personas de un lugar a otro, se convierta en una forma de vida y en un
+			lugar para el encuentro social y cultural.
+			<br /><br />
+		</p>
+		<center>
+			<h4>
+				Te brindamos el transporte que necesecitas cuando lo nececitas
+			</h4>
+
+			<img src="img/mediostrasporte.jpg" alt="Medios de transporte" width="500" height="300">
+		</center>
+		<p>
+			<center>
+				<table WIDTH="500">
+					<tr>
+
+						<td>
+							<li>Terrestres</li>
+						</td>
+						<td>
+							<li>Aereos</li>
+						</td>
+						<td>
+							<li>Fluviales</li>
+						</td>
+					</tr>
+
+				</table>
+			</center>
+			<br /><br />
+		</p>
+		<center>
+			<h1>
+				Contactanos:
+			</h1>
+
+			<section>
+				<form method="get">
+
+					<table>
+						<td>
+							<label for="nombre">Nombre: </label>
+						</td>
+						<td>
+							<input type="text" name="nombre" id="nombre">
+						</td>
+						<td>
+
+							<br /> <br />
+						<td>
+							<label for="apellido">Apellido: </label>
+						</td>
+						<td>
+
+							<input type="text" name="apellido" id="apellido">
+						</td>
+					</table>
+					<label for="email">Email: </label>
+
+					<input type="text" name="email" id="email">
+
+
+					<br /> <br />
+
+					<label for="sexo">Sexo: </label>
+					<input type="radio" name="sexo" id="varon" value="Varón">
+
+
+					<label for="varon">Varón: </label>
+
+					<input type="radio" name="sexo" id="mujer" value="Mujer">
+
+					<label for="mujer">Mujer: </label>
+
+					<br /> <br />
+
+					<label for="dog-names">Ciudad:</label>
+					<select name="dog-names" id="dog-names">
+						<option value="rigatoni">Medellin</option>
+						<option value="dave">Bogota</option>
+						<option value="pumpernickel">Cartagena</option>
+						<option value="reeses">Cali</option>
+					</select>
+
+					<br /> <br />
+
+
+					<label for="comentarios">Comentarios: </label>
+
+					<textarea type="textarea" name="coments" id="coments">
+					</textarea>
+
+					<br /> <br />
+					<input type="submit" value="Enviar">
+
+					<input type="reset">
+					<br /> <br />
+
+
+		</center>
+
+
+
+	</section>
+
+	<article style=" background-color:#dfdd">
+
+		<h1>Transportes S.A.</h1>
+
+		<p>"Cumple todos tus sueños junto a nosotros."</p>
+
+		<footer>
+
+			<p>Copyright 2022, todos los derechos reservados.</p>
+
+		</footer>
+
+	</article>
+	<!--
 		<section>
 			<aside>
 				<blockquote><a href="https://code.visualstudio.com/">Visual Studio Code</a></blockquote>
@@ -159,7 +266,7 @@
 			</p>
 
 		</section> -->
-	</header>
+
 
 </body>
 
