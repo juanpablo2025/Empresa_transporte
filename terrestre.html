@@ -92,66 +92,81 @@
 				<form method="get">
 
 					<table>
-						<td>
-							<label for="nombre">Nombre: </label>
-						</td>
-						<td>
-							<input type="text" name="nombre" id="nombre">
-						</td>
-						<td>
+						<tr>
+							<td>
+								<label for="nombre">Nombre: </label>
 
-							<br /> <br />
-						<td>
-							<label for="apellido">Apellido: </label>
-						</td>
-						<td>
 
-							<input type="text" name="apellido" id="apellido">
+								<input type="text" name="nombre" id="nombre">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="apellido">Apellido: </label>
+
+
+								<input type="text" name="apellido" id="apellido">
+
+							</td>
+
+						</tr>
+
+						<td>
+							<label for="email">Email: </label>
+
+							<input type="text" name="email" id="email">
 						</td>
+
+
+
+						<br />
+						<tr>
+							<center>
+								<td>
+									<label for="sexo">Sexo: </label>
+									<label for="varon">Hombre: </label>
+
+									<input type="radio" name="sexo" id="varon" value="Varón">
+
+									<label for="mujer">Mujer: </label>
+
+									<input type="radio" name="sexo" id="mujer" value="Mujer">
+
+
+								</td>
+
+						</tr>
+
+						<tr>
+							<td>
+								<label for="dog-names">Ciudad:</label>
+								<select name="dog-names" id="dog-names">
+									<option value="rigatoni">Medellin</option>
+									<option value="dave">Bogota</option>
+									<option value="pumpernickel">Cartagena</option>
+									<option value="reeses">Cali</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<label for="comentarios">Comentarios: </label>
+
+								<textarea type="textarea" name="coments" id="coments"></textarea>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="submit" value="Enviar">
+
+								<input type="reset">
+							</td>
+						</tr>
+
 					</table>
-					<label for="email">Email: </label>
-
-					<input type="text" name="email" id="email">
 
 
-					<br /> <br />
-
-					<label for="sexo">Sexo: </label>
-					<input type="radio" name="sexo" id="varon" value="Varón">
-
-
-					<label for="varon">Varón: </label>
-
-					<input type="radio" name="sexo" id="mujer" value="Mujer">
-
-					<label for="mujer">Mujer: </label>
-
-					<br /> <br />
-
-					<label for="dog-names">Ciudad:</label>
-					<select name="dog-names" id="dog-names">
-						<option value="rigatoni">Medellin</option>
-						<option value="dave">Bogota</option>
-						<option value="pumpernickel">Cartagena</option>
-						<option value="reeses">Cali</option>
-					</select>
-
-					<br /> <br />
-
-
-					<label for="comentarios">Comentarios: </label>
-
-					<textarea type="textarea" name="coments" id="coments">
-					</textarea>
-
-					<br /> <br />
-					<input type="submit" value="Enviar">
-
-					<input type="reset">
-					<br /> <br />
-
-
-		</center>
-
-	</section>
+			</section>
 </body>
